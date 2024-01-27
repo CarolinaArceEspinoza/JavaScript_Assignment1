@@ -1,8 +1,5 @@
 // Assignment 1 | COMP1073 Client-Side JavaScript
 
-/* Variables
--------------------------------------------------- */
-// Create a new speechSynthesis object
 var synth = window.speechSynthesis;
 
 var storyButton1 = document.getElementById("list1");
