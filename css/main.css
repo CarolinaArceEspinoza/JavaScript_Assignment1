@@ -54,6 +54,8 @@ li:nth-child(3) {background-color:#88ba04;}
 li:nth-child(4) {background-color:#e79401;}
 li:nth-child(5) {background-color:#f94d90;}
 
+
+
 button {
     width: 11vw;
     height: 11vw;
@@ -65,10 +67,16 @@ button {
     line-height: 9vw;
     color: black;
 }
-#completeStory {
-    position: absolute;
-    right: 20px;
-    top: 20px;
+
+.buttonSet {
+width: 80%;
+margin: 20px auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#completeStory, #reset, #randomStory  {
     width: 17vw;
     font-size: 2.6vw;
     height: auto;
@@ -107,16 +115,17 @@ footer {
 }
 /* Some corrections for small devices */
 @media only screen and (max-width: 950px){ 
-    #completeStory {
+    buttonSet {position: relative;
+        right: 0px;
         top: 0px;
-        width: auto;
+    }
+    #completeStory, #reset, #randomStory {
         height: auto;
         padding: 10px;
-        position: relative;
         margin: 20px;
         text-align: center;
         right: 0px;
-        font-size: 30px;
+        font-size: 20px;
     }
     h1 img {
         width: 80%;
