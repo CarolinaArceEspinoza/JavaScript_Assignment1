@@ -51,7 +51,7 @@ h1 img {
 }
 h2 {
     font-family: "Pacifico", cursive;
-    font-size: 30px;
+    font-size: 35px;
     margin: 20px 10px;
     color: #ff1040;
     font-weight: 400;
@@ -101,7 +101,7 @@ justify-content: space-around;
 }
 
 #completeStory, #reset, #randomStory  {
-    width: 32%;
+    width: 45%;
     font-size: 30px;
     height: auto;
     padding: 10px;
