@@ -116,7 +116,7 @@ justify-content: space-around;
  }
  li figcaption {
     color: white;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-weight: bold;
 }
 li div {
@@ -128,7 +128,8 @@ li div {
     background: white;
     border-radius: 10px;
     height: auto;
-    line-height: 4vw;
+    line-height: 35px;
+    min-height: 35px;
 }
 footer {
     text-align: center;
@@ -145,6 +146,10 @@ footer {
         flex-wrap: wrap;
         align-content: space-around;
         align-items: stretch;
+    }
+    button {
+        width: 14vw;
+        height: 14vw;
     }
     #completeStory, #reset, #randomStory {
         padding: 10px;
@@ -165,10 +170,15 @@ footer {
         width: 90%;
     }
     figure {
-        width: 13%;
+        width: 12%;
         text-align: center;
         display: inline-block;
+        vertical-align: top;
 
     }
+    figure img {
+        width: 80%;
+    }
+
 
     }
