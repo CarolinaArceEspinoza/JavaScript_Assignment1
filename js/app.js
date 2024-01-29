@@ -180,104 +180,104 @@ storyButton8.onclick = function() {
     randomStory();
 }
 turkey.onclick = function() {
-    lecturaNombre(nouns1, 0, "listBox1");
+    lecturaNombre(nouns1, 0, "listBox1", 0);
 }
 mom.onclick = function() {
-    lecturaNombre(nouns1, 1, "listBox1");
+    lecturaNombre(nouns1, 1, "listBox1", 0);
 }
 dad.onclick = function() {
-    lecturaNombre(nouns1, 2, "listBox1");
+    lecturaNombre(nouns1, 2, "listBox1", 0);
 }
 dog.onclick = function() {
-    lecturaNombre(nouns1, 3, "listBox1");
+    lecturaNombre(nouns1, 3, "listBox1", 0);
 }
 teacher.onclick = function() {
-    lecturaNombre(nouns1, 4, "listBox1");
+    lecturaNombre(nouns1, 4, "listBox1", 0);
 }
 elephant.onclick = function() {
-    lecturaNombre(nouns1, 5, "listBox1");
+    lecturaNombre(nouns1, 5, "listBox1", 0);
 }
 cat.onclick = function() {
-    lecturaNombre(nouns1, 6, "listBox1");
+    lecturaNombre(nouns1, 6, "listBox1", 0);
 }
 
 sit.onclick = function() {
-    lecturaNombre(nouns2, 0, "listBox2");
+    lecturaNombre(nouns2, 0, "listBox2", 0);
 }
 eat.onclick = function() {
-    lecturaNombre(nouns2, 1, "listBox2");
+    lecturaNombre(nouns2, 1, "listBox2", 0);
 }
 dance.onclick = function() {
-    lecturaNombre(nouns2, 2, "listBox2");
+    lecturaNombre(nouns2, 2, "listBox2", 0);
 }
 saw.onclick = function() {
-    lecturaNombre(nouns2, 3, "listBox2");
+    lecturaNombre(nouns2, 3, "listBox2", 0);
 }
 dislike.onclick = function() {
-    lecturaNombre(nouns2, 4, "listBox2");
+    lecturaNombre(nouns2, 4, "listBox2", 0);
 }
 kiss.onclick = function() {
-    lecturaNombre(nouns2, 5, "listBox2");
+    lecturaNombre(nouns2, 5, "listBox2", 0);
 }
 
 funny.onclick = function() {
-    lecturaNombre(nouns3, 0, "listBox3");
+    lecturaNombre(nouns3, 0, "listBox3", 0);
 }
 scary.onclick = function() {
-    lecturaNombre(nouns3, 1, "listBox3");
+    lecturaNombre(nouns3, 1, "listBox3", 0);
 }
 goofy.onclick = function() {
-    lecturaNombre(nouns3, 2, "listBox3");
+    lecturaNombre(nouns3, 2, "listBox3", 0);
 }
 slimy.onclick = function() {
-    lecturaNombre(nouns3, 3, "listBox3");
+    lecturaNombre(nouns3, 3, "listBox3", 0);
 }
 bark.onclick = function() {
-    lecturaNombre(nouns3, 4, "listBox3");
+    lecturaNombre(nouns3, 4, "listBox3", 0);
 }
 fat.onclick = function() {
-    lecturaNombre(nouns3, 5, "listBox3");
+    lecturaNombre(nouns3, 5, "listBox3", 0);
 }
 
 goat.onclick = function() {
-    lecturaNombre(nouns4, 0, "listBox4");
+    lecturaNombre(nouns4, 0, "listBox4", 0);
 }
 monkey.onclick = function() {
-    lecturaNombre(nouns4, 1, "listBox4");
+    lecturaNombre(nouns4, 1, "listBox4", 0);
 }
 fish.onclick = function() {
-    lecturaNombre(nouns4, 2, "listBox4");
+    lecturaNombre(nouns4, 2, "listBox4", 0);
 }
 cow.onclick = function() {
-    lecturaNombre(nouns4, 3, "listBox4");
+    lecturaNombre(nouns4, 3, "listBox4", 0);
 }
 frog.onclick = function() {
-    lecturaNombre(nouns4, 4, "listBox4");
+    lecturaNombre(nouns4, 4, "listBox4", 0);
 }
 bug.onclick = function() {
-    lecturaNombre(nouns4, 5, "listBox4");
+    lecturaNombre(nouns4, 5, "listBox4", 0);
 }
 worm.onclick = function() {
-    lecturaNombre(nouns4, 6, "listBox4");
+    lecturaNombre(nouns4, 6, "listBox4", 0);
 }
 
 moon.onclick = function() {
-    lecturaNombre(nouns5, 0, "listBox5");
+    lecturaNombre(nouns5, 0, "listBox5", 0);
 }
 chair.onclick = function() {
-    lecturaNombre(nouns5, 1, "listBox5");
+    lecturaNombre(nouns5, 1, "listBox5", 0);
 }
 spaguetti.onclick = function() {
-    lecturaNombre(nouns5, 2, "listBox5");
+    lecturaNombre(nouns5, 2, "listBox5", 0);
 }
 soup.onclick = function() {
-    lecturaNombre(nouns5, 3, "listBox5");
+    lecturaNombre(nouns5, 3, "listBox5", 0);
 }
 grass.onclick = function() {
-    lecturaNombre(nouns5, 4, "listBox5");
+    lecturaNombre(nouns5, 4, "listBox5", 0);
 }
 shoes.onclick = function() {
-    lecturaNombre(nouns5, 5, "listBox5");
+    lecturaNombre(nouns5, 5, "listBox5", 0);
 }
 
 
