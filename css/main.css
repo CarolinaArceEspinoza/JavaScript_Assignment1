@@ -138,6 +138,12 @@ footer {
     margin-top: 40px;
     color: #ffae13;
 }
+.pictures_button {
+    background: transparent;
+    border: 0;
+    border-radius: 0px;
+    width: 100%;
+}
 /* Some corrections for small devices */
 @media only screen and (max-width: 950px){ 
     .buttonSet {
