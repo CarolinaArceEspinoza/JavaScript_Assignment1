@@ -53,7 +53,7 @@ const nouns2 = new Array("sat on", "ate", "danced with", "saw", "doesn't like", 
 const nouns3 = new Array("a funny", "a scary", "a goofy", "a slimy", "a barking", "a fat");
 const nouns4 = new Array("goat", "monkey", "fish", "cow", "frog", "bug", "worm");
 const nouns5 = new Array("on the moon.", "on the chair.", "in my spaghetti.", "in my soup.", "on the grass.", "in my shoes.");
-let completeText = [5];   
+let completeText = [];   
 
 var lecturatextos = function(phrases, linea, position, flag){
     var i;
@@ -108,7 +108,7 @@ function clean() {
     document.getElementById("listBox3").innerText = "_";
     document.getElementById("listBox4").innerText = "_";
     document.getElementById("listBox5").innerText = "_";
-    completeText = [5];
+    completeText = [];
 }
 
 function randomStory() {
@@ -167,9 +167,14 @@ storyButton5.onclick = function() {
     lecturatextos(nouns5,"listBox5", 4,1);
 }
 storyButton6.onclick = function() {
+    if (completeText.length === 0) {
+        speakNow("You need to add some things to the story");
+      }
+    else {
 	var textoCorrido = completeText.toString().replaceAll(",", " ");
 	console.log(textoCorrido);
     speakNow(textoCorrido);
+}
 }
 storyButton7.onclick = function() {
     clean();
