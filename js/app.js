@@ -75,15 +75,12 @@ var lecturatextos = function(phrases, linea, position, flag){
   };
 
 
-  var lecturaNombre = function(phrases, position, linea){
+var lecturaNombre = function(phrases, position, linea){
     var newquotes = phrases[position];
+    var utterThis = new SpeechSynthesisUtterance(newquotes);
+        synth.cancel();
+        synth.speak(utterThis);
     document.getElementById(linea).innerText = newquotes;
-    
-    completeText[position] = newquotes;
-synth.cancel();
-    
-    var textoCorrido = completeText.toString().replaceAll(",", " ");
-    speakNow(textoCorrido);
 
 };
 
